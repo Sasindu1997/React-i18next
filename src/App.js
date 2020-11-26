@@ -30,24 +30,26 @@ function App() {
         <h2>{t('main.page.section.languages.title')}</h2>
         <p>{t('main.page.section.languages.subtitle')}</p>
 
+        
+        <p>{t("main.page.section.languages.basket_delivered", { count: 1 })}</p>
+
+
         <div className="card-container">
-          <div onClick={changeLanguage('en')} className="card card-small">
+          <button onClick={changeLanguage('en')} className="card card-small">
             <span>{t('main.page.section.languages.english')}</span>
-          </div>
-
-          <div onClick={changeLanguage('fr')} className="card card-small">
+          </button>
+          <button onClick={changeLanguage('fr')} className="card card-small">
             <span>{t('main.page.section.languages.french')}</span>
-          </div>
-
-          <div onClick={changeLanguage('ar')} className="card card-small">
+          </button>
+          <button onClick={changeLanguage('ar')} className="card card-small">
             <span>{t('main.page.section.languages.arabic')}</span>
-          </div>
-          <div onClick={changeLanguage('gr')} className="card card-small">
+          </button>
+          <button onClick={changeLanguage('gr')} className="card card-small">
             <span>{t('main.page.section.languages.german')}</span>
-          </div>
-          <div onClick={changeLanguage('ch')} className="card card-small">
+          </button>
+          <button onClick={changeLanguage('ch')} className="card card-small">
             <span>{t('main.page.section.languages.chinese')}</span>
-          </div>
+          </button>
         </div>
       </div>
     </div>

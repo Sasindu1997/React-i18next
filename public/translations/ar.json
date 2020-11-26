@@ -2,6 +2,8 @@
     "main.header.welcome": "أهلا بك",
     "main.page.title": "{{title}} يركض!",
     "main.page.section.languages.title": "اللغات",
-    "main.page.section.languages.subtitle": "دعونا نحاول تغيير اللغة"
-   
+    "main.page.section.languages.subtitle": "دعونا نحاول تغيير اللغة",
+
+    "main.page.section.languages.basket_delivered": "{{count}} سبت تم توصيله",
+    "main.page.section.languages.basket_delivered_plural": "{{count}} سبت تم توصيله"
   }
