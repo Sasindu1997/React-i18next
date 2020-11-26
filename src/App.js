@@ -38,6 +38,10 @@ function App() {
                 today: new Date(),
               })}
 
+<p>{t("main.page.section.languages.currency", { value: 2356.00 })}</p>
+
+
+
         <div className="card-container">
           <button onClick={changeLanguage('en')} className="card card-small">
             <span>{t('main.page.section.languages.english')}</span>

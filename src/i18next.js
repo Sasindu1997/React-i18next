@@ -21,12 +21,21 @@ i18n
   keySeparator: false,
   interpolation: {
     escapeValue: false,
-    format: function (value, format, lng) {
-      if (format === "date") {
-        return new Intl.DateTimeFormat(lng).format(value);
+
+    format: (value, rawFormat, lng) => {
+      const [format, ...additionalValues] = rawFormat.split(',').map((v) => v.trim());
+      switch (format) {
+        case 'date':
+          return new Intl.DateTimeFormat(lng).format(value);
+        case 'price':
+          return Intl.NumberFormat(lng, {
+            style: 'currency',
+            currency: additionalValues[0]
+          }).format(value);
       }
       return value;
     },
+
   },
   backend: {
     loadPath: '/translations/{{lng}}.json',

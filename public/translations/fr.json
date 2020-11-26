@@ -5,9 +5,9 @@
     "main.page.section.languages.subtitle": "Essayons de changer de langue!",
   
   
-    "main.page.section.languages.word": "{{count}} mot",
-    "main.page.section.languages.word_plural": "{{count}} mots",
+    "main.page.section.languages.word": "{{count, number}} mot",
+    "main.page.section.languages.word_plural": "{{count, number}} mots",
     
-    "main.page.section.languages.written_on": "Date de rédaction — {{today, date}}"
-  
+    "main.page.section.languages.written_on": "Date de rédaction — {{today, date}}",
+    "main.page.section.languages.currency": "{{value, price, EUR}}"
   }

@@ -5,10 +5,11 @@
     "main.page.section.languages.subtitle": "Versuchen wir, die Sprache zu ändern!",
 
 
-    "main.page.section.languages.word": "{{count}} Wort",
-    "main.page.section.languages.word_plural": "{{count}} Wörter",
+    "main.page.section.languages.word": "{{count, number}} Wort",
+    "main.page.section.languages.word_plural": "{{count, number}} Wörter",
 
-    "main.page.section.languages.written_on": "Datum der schriftlichen — {{today, date}}"
+    "main.page.section.languages.written_on": "Datum der schriftlichen — {{today, date}}",
+    "main.page.section.languages.currency": "{{value, price, EUR}}"
 
 }
   

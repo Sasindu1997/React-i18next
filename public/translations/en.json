@@ -4,10 +4,11 @@
     "main.page.section.languages.title": "Languages",
     "main.page.section.languages.subtitle": "Lets try to change language!",
 
-    "main.page.section.languages.word": "{{count}} word",
-    "main.page.section.languages.word_plural": "{{count}} words",
+    "main.page.section.languages.word": "{{count, number}} word",
+    "main.page.section.languages.word_plural": "{{count, number}} words",
     
-    "main.page.section.languages.written_on": "Date of written — {{today, date}}"
+    "main.page.section.languages.written_on": "Date of written — {{today, date}}",
+    "main.page.section.languages.currency": "{{value, price, USD}}"
   }
   
 

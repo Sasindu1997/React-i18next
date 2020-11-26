@@ -4,9 +4,9 @@
     "main.page.section.languages.title": "اللغات",
     "main.page.section.languages.subtitle": "دعونا نحاول تغيير اللغة",
 
-    "main.page.section.languages.word": "{{count}} كلمة",
-    "main.page.section.languages.word_plural": "{{count}} كلمات",
+    "main.page.section.languages.word": "{{count, number}} كلمة",
+    "main.page.section.languages.word_plural": "{{count, number}} كلمات",
 
-    "main.page.section.languages.written_on": "تاريخ الكتابة — {{today, date}}"
-
+    "main.page.section.languages.written_on": "تاريخ الكتابة — {{today, date}}",
+    "main.page.section.languages.currency": "{{value, price, AED}}"
   }
