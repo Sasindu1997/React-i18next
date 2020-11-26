@@ -5,7 +5,9 @@
     "main.page.section.languages.subtitle": "  讓我們嘗試改變語言!",
    
     "main.page.section.languages.word": "{{count}} 字",
-    "main.page.section.languages.word_plural": "{{count}} 話"
+    "main.page.section.languages.word_plural": "{{count}} 話",
+
+    "main.page.section.languages.written_on": "撰寫日期 — {{today, date}}"
 
 }
   

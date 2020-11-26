@@ -20,7 +20,13 @@ i18n
   debug: true,
   keySeparator: false,
   interpolation: {
-    escapeValue: false
+    escapeValue: false,
+    format: function (value, format, lng) {
+      if (format === "date") {
+        return new Intl.DateTimeFormat(lng).format(value);
+      }
+      return value;
+    },
   },
   backend: {
     loadPath: '/translations/{{lng}}.json',

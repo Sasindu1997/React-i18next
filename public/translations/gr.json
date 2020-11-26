@@ -6,7 +6,9 @@
 
 
     "main.page.section.languages.word": "{{count}} Wort",
-    "main.page.section.languages.word_plural": "{{count}} Wörter"
+    "main.page.section.languages.word_plural": "{{count}} Wörter",
+
+    "main.page.section.languages.written_on": "Datum der schriftlichen — {{today, date}}"
 
 }
   

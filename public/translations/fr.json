@@ -6,7 +6,8 @@
   
   
     "main.page.section.languages.word": "{{count}} mot",
-    "main.page.section.languages.word_plural": "{{count}} mots"
+    "main.page.section.languages.word_plural": "{{count}} mots",
     
+    "main.page.section.languages.written_on": "Date de rédaction — {{today, date}}"
   
   }

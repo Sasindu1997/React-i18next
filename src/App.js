@@ -34,7 +34,9 @@ function App() {
         <p>{t("main.page.section.languages.word", { count: 1 })}</p>
         <p>{t("main.page.section.languages.word", { count: 2356 })}</p>
 
-
+        {t("main.page.section.languages.written_on", {
+                today: new Date(),
+              })}
 
         <div className="card-container">
           <button onClick={changeLanguage('en')} className="card card-small">
