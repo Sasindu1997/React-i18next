@@ -5,6 +5,7 @@
     "main.page.section.languages.subtitle": "Versuchen wir, die Sprache zu ändern!",
 
 
+
     "main.page.section.languages.word": "{{count, number}} Wort",
     "main.page.section.languages.word_plural": "{{count, number}} Wörter",
 

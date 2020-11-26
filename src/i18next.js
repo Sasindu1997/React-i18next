@@ -32,6 +32,8 @@ i18n
             style: 'currency',
             currency: additionalValues[0]
           }).format(value);
+          case 'number':
+            return new Intl.NumberFormat().format(value);
       }
       return value;
     },
