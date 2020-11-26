@@ -4,8 +4,8 @@
     "main.page.section.languages.title": "Languages",
     "main.page.section.languages.subtitle": "Lets try to change language!",
 
-    "main.page.section.languages.basket_delivered": "{{count}} basket delivered",
-    "main.page.section.languages.basket_delivered_plural": "{{count}} baskets delivered"
+    "main.page.section.languages.word": "{{count}} word",
+    "main.page.section.languages.word_plural": "{{count}} words"
     
    
   }

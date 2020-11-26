@@ -31,7 +31,9 @@ function App() {
         <p>{t('main.page.section.languages.subtitle')}</p>
 
         
-        <p>{t("main.page.section.languages.basket_delivered", { count: 1 })}</p>
+        <p>{t("main.page.section.languages.word", { count: 1 })}</p>
+        <p>{t("main.page.section.languages.word", { count: 2356 })}</p>
+
 
 
         <div className="card-container">
