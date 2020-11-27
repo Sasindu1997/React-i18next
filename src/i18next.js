@@ -21,7 +21,6 @@ i18n
   keySeparator: false,
   interpolation: {
     escapeValue: false,
-
     format: (value, rawFormat, lng) => {
       const [format, ...additionalValues] = rawFormat.split(',').map((v) => v.trim());
       switch (format) {

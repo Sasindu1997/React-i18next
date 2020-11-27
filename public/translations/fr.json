@@ -3,11 +3,9 @@
     "main.page.title": "{{title}} est en cours d'exécution!",
     "main.page.section.languages.title": "Langages",
     "main.page.section.languages.subtitle": "Essayons de changer de langue!",
-  
-  
     "main.page.section.languages.word": "{{count, number}} mot",
     "main.page.section.languages.word_plural": "{{count, number}} mots",
-    
+    "main.page.section.languages.number": "{{ value, number }} ",
     "main.page.section.languages.written_on": "Date de rédaction — {{today, date}}",
     "main.page.section.languages.currency": "{{value, price, EUR}}"
   }

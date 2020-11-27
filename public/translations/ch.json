@@ -3,14 +3,12 @@
     "main.page.title": "{{title}} 在跑!",
     "main.page.section.languages.title": "語言能力",
     "main.page.section.languages.subtitle": "  讓我們嘗試改變語言!",
-   
     "main.page.section.languages.word": "{{count, number}} 字",
     "main.page.section.languages.word_plural": "{{count, number}} 話",
-
     "main.page.section.languages.written_on": "撰寫日期 — {{today, date}}",
-
-    "main.page.section.languages.currency": "{{value, price, CNY}}"
-} 
+    "main.page.section.languages.currency": "{{value, price, CNY}}",
+    "main.page.section.languages.number": "{{ value, number }} "
+  } 
   
   
   
